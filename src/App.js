@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <nav>
+        <nav className={style.Topbar}>
           <img src='https://pbs.twimg.com/media/DhRy1IVV4AAPFD3.jpg' alt='Amazon Logo' />
         </nav>
       </header>
