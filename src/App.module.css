@@ -10,3 +10,7 @@
 .Topbar > img {
   width: 100px;
 }
+
+.MainContainer {
+  padding: 4% 12%;
+}

@@ -15,7 +15,9 @@ function App() {
           <img src='https://imgur.com/iOeUBV7.png' alt='Product Preview'/>
         </div>
 
-        <div className={style.ProductData}></div>
+        <div className={style.ProductData}>
+          
+        </div>
       </div>
     </div>
   );
