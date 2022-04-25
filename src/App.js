@@ -11,8 +11,8 @@ function App() {
       </header>
 
       <div className={style.MainContainer}>
-        <div>
-          
+        <div className={style.ProductPreview}>
+
         </div>
       </div>
     </div>
