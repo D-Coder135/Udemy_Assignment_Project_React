@@ -10,8 +10,8 @@ function App() {
         </nav>
       </header>
 
-      <div>
-        
+      <div className={style.MainContainer}>
+
       </div>
     </div>
   );
