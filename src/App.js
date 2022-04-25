@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-import './App.css';
 import style from './App.module.css';
 
 function App() {
@@ -7,7 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <nav className={style.Topbar}>
-          <img src='https://pbs.twimg.com/media/DhRy1IVV4AAPFD3.jpg' alt='Amazon Logo' />
+          <img src='https://pngimg.com/uploads/amazon/amazon_PNG11.png' alt='Amazon Logo' />
         </nav>
       </header>
     </div>
