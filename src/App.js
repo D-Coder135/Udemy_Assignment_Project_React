@@ -11,7 +11,9 @@ function App() {
       </header>
 
       <div className={style.MainContainer}>
-
+        <div>
+          
+        </div>
       </div>
     </div>
   );
