@@ -33,7 +33,7 @@ function App() {
             <button className={style.FeatureItem}>Heart Rate</button>
           </div>
 
-          <button></button>
+          <button>Buy Now</button>
 
         </div>
       </div>
