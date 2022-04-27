@@ -18,7 +18,7 @@ function App() {
           <div className={style.TimeSection}>
             <p>{`${new Date().getHours()}:${currentMinutes}`}</p>
           </div>
-          <div className={style.HeartSection}>
+          <div className={style.HeartBeatSection}>
           <i class="fa-solid fa-heart-pulse"></i>
             <p>78 BPM</p>
           </div>
