@@ -15,9 +15,9 @@ function App() {
         <div className={style.ProductPreview}>
           <img src='https://imgur.com/iOeUBV7.png' alt='Product Preview'/>
 
-          <div className={style.TimeSection}>
+          {/* <div className={style.TimeSection}>
             <p>{`${new Date().getHours()}:${currentMinutes}`}</p>
-          </div>
+          </div> */}
           <div className={style.HeartBeatSection}>
           <i class="fa-solid fa-heart-pulse"></i>
             <p>78 BPM</p>
