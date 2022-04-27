@@ -15,7 +15,7 @@ function App() {
         <div className={style.ProductPreview}>
           <img src='https://imgur.com/iOeUBV7.png' alt='Product Preview'/>
 
-          <div className={style.FeatureData}>
+          <div className={style.TimeSection}>
             <p>{`${new Date().getHours()}:${currentMinutes}`}</p>
           </div>
         </div>
