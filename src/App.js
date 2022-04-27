@@ -20,6 +20,9 @@ function App() {
           <p className={style.ProductDescription}>{ProductData.description}</p>
 
           <h3 className={style.SectionHeading}>Select Color</h3>
+          <div>
+            
+          </div>
         </div>
       </div>
     </div>
