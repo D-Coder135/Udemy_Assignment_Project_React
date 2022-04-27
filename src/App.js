@@ -18,7 +18,7 @@ function App() {
           <div className={style.TimeSection}>
             <p>{`${new Date().getHours()}:${currentMinutes}`}</p>
           </div>
-          <div className={style.TimeSection}>
+          <div className={style.HeartSection}>
             <p>{`${new Date().getHours()}:${currentMinutes}`}</p>
           </div>
         </div>
