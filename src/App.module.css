@@ -83,3 +83,7 @@ body {
   font-weight: 600;
   box-sizing: content-box;
 }
+
+.SelectedFeatureItem {
+  color: white;
+}
