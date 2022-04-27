@@ -19,7 +19,7 @@ function App() {
           <h1 className={style.ProductTitle}>{ProductData.title}</h1>
           <p className={style.ProductDescription}>{ProductData.description}</p>
 
-          <h3></h3>
+          <h3 className={style.SectionHeading}></h3>
         </div>
       </div>
     </div>
