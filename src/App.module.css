@@ -59,6 +59,10 @@ body {
   color: red;
 }
 
+.HeartBeatSection > p {
+  margin-top: 16px;
+}
+
 .ProductData {
   width: 50%;
 }
