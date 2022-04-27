@@ -19,6 +19,7 @@ function App() {
             <p>{`${new Date().getHours()}:${currentMinutes}`}</p>
           </div>
           <div className={style.HeartSection}>
+          <i class="fa-solid fa-heart-pulse"></i>
             <p>78 BPM</p>
           </div>
         </div>
