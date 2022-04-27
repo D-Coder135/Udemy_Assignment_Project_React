@@ -19,7 +19,7 @@ function App() {
             <p>{`${new Date().getHours()}:${currentMinutes}`}</p>
           </div>
           <div className={style.HeartSection}>
-            <p>{`${new Date().getHours()}:${currentMinutes}`}</p>
+            <p>78 BPM</p>
           </div>
         </div>
 
