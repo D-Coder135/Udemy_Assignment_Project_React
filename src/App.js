@@ -14,7 +14,9 @@ function App() {
         <div className={style.ProductPreview}>
           <img src='https://imgur.com/iOeUBV7.png' alt='Product Preview'/>
 
-          <div></div>
+          <div>
+            <p></p>
+          </div>
         </div>
 
         <div className={style.ProductData}>
