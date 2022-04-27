@@ -20,7 +20,7 @@ function App() {
           </div> */}
           <div className={style.HeartBeatSection}>
             <i class="fas fa-heartbeat"></i>
-            <p>78 BPM</p>
+            <p>78</p>
           </div>
         </div>
 
