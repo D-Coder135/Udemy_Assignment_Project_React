@@ -47,4 +47,6 @@ body {
 .ProductDescription {
   font-size: 20px;
   color: rgba(0, 0, 0, 0.8);
+  margin-top: 0;
+  margin-bottom: 16px;
 }
