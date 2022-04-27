@@ -51,6 +51,10 @@ body {
   margin-bottom: 16px;
 }
 
+.SectionHeading {
+  font-size: 28px;
+}
+
 .ProductImage {
   width: 100%;
   max-width: 80px;
