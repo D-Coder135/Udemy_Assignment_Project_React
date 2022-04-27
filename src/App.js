@@ -15,7 +15,7 @@ function App() {
           <img src='https://imgur.com/iOeUBV7.png' alt='Product Preview'/>
 
           <div>
-            <p></p>
+            <p>{`${new Date().getHours()}:${new Date().getMinutes()}`}</p>
           </div>
         </div>
 
