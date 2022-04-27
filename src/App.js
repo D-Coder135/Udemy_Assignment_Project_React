@@ -18,6 +18,9 @@ function App() {
           <div className={style.TimeSection}>
             <p>{`${new Date().getHours()}:${currentMinutes}`}</p>
           </div>
+          <div className={style.TimeSection}>
+            <p>{`${new Date().getHours()}:${currentMinutes}`}</p>
+          </div>
         </div>
 
         <div className={style.ProductData}>
