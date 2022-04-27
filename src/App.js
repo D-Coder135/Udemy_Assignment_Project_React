@@ -29,9 +29,11 @@ function App() {
 
           <h3 className={style.SectionHeading}>Features</h3>
           <div>
-            <button className={style.FeatureItem}>Time</button>
+            <button className={[style.FeatureItem, style.SelectedFeatureItem].join(' ')}>Time</button>
             <button className={style.FeatureItem}>Heart Rate</button>
           </div>
+
+          <button></button>
 
         </div>
       </div>
