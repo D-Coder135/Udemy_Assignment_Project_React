@@ -35,6 +35,7 @@ body {
 
 .FeatureData {
   position: absolute;
+  top: 50%;
 }
 
 .ProductData {
