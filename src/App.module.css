@@ -26,6 +26,7 @@ body {
 
 .ProductPreview {
   width: 50%;
+  position: relative;
 }
 
 .ProductPreview > img {
