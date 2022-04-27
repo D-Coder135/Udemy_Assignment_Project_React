@@ -69,3 +69,8 @@ body {
 .SelectedProductImage {
   border: 2px solid teal;
 }
+
+.FeatureItem {
+  background-color: gainsboro;
+  
+}
