@@ -31,3 +31,7 @@
 .ProductData {
   width: 50%;
 }
+
+.ProductTitle {
+  font-family: 'Source Sans Pro', sans-serif;
+}
