@@ -27,3 +27,7 @@
 .ProductPreview > img {
   width: 100%;
 }
+
+.ProductData {
+  width: 50%;
+}
