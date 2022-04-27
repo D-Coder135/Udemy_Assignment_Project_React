@@ -74,4 +74,6 @@ body {
   background-color: gainsboro;
   border-radius: 8px;
   border: 0;
+
+  min-width: 80px;
 }
