@@ -13,6 +13,8 @@ function App() {
       <div className={style.MainContainer}>
         <div className={style.ProductPreview}>
           <img src='https://imgur.com/iOeUBV7.png' alt='Product Preview'/>
+
+          <div></div>
         </div>
 
         <div className={style.ProductData}>
