@@ -14,7 +14,7 @@ function App() {
         <div className={style.ProductPreview}>
           <img src='https://imgur.com/iOeUBV7.png' alt='Product Preview'/>
 
-          <div>
+          <div className={style.FeatureData}>
             <p>{`${new Date().getHours()}:${new Date().getMinutes()}`}</p>
           </div>
         </div>
