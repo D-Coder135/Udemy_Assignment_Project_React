@@ -55,6 +55,10 @@ body {
   font-weight: 600;
 }
 
+.HeartBeatSection > i {
+  color: red;
+}
+
 .ProductData {
   width: 50%;
 }
