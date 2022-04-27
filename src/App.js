@@ -2,6 +2,7 @@ import ProductData from './ProductData';
 import style from './App.module.css';
 
 function App() {
+  const currentMinutes = new Date().getMinutes() > 9 ? new Date().getMinutes() : '0' + new Date().getMinutes();
   return (
     <div className="App">
       <header className="App-header">
