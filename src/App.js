@@ -29,7 +29,7 @@ function App() {
 
           <h3 className={style.SectionHeading}>Features</h3>
           <div>
-            <button>Time</button>
+            <button className={style.FeatureItem}>Time</button>
             <button>Heart Rate</button>
           </div>
 
