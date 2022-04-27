@@ -33,6 +33,10 @@ body {
   width: 100%;
 }
 
+.FeatureData {
+  position: absolute;
+}
+
 .ProductData {
   width: 50%;
 }
