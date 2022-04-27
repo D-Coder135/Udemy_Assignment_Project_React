@@ -29,7 +29,7 @@ function App() {
 
           <h3 className={style.SectionHeading}>Features</h3>
           <div>
-            <button></button>
+            <button>Time</button>
           </div>
 
         </div>
