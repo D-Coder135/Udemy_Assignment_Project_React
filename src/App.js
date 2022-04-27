@@ -1,4 +1,4 @@
-
+import ProductData from './ProductData';
 import style from './App.module.css';
 
 function App() {
