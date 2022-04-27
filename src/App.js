@@ -17,6 +17,7 @@ function App() {
 
         <div className={style.ProductData}>
           <h1 className={style.ProductTitle}>{ProductData.title}</h1>
+          <p></p>
         </div>
       </div>
     </div>
