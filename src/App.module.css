@@ -56,4 +56,5 @@ body {
   max-width: 80px;
 
   border: 2px solid teal;
+  border-radius: 8px;
 }
