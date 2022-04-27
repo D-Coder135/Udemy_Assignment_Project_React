@@ -81,4 +81,5 @@ body {
   margin-right: 12px;
   cursor: pointer;
   font-weight: 600;
+  box-sizing: content-box;
 }
