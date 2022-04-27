@@ -57,6 +57,7 @@ body {
 
 .HeartBeatSection > i {
   color: red;
+  animation: beat 1s infinite;
 }
 
 @keyframes beat {
