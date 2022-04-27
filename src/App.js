@@ -27,7 +27,7 @@ function App() {
             <img className={style.ProductImage} src="https://imgur.com/xSIK4M8.png" alt='Purple Colored Watch'/>
           </div>
 
-          <h3 className={style.SectionHeading}>Select Color</h3>
+          <h3 className={style.SectionHeading}>Features</h3>
 
         </div>
       </div>
