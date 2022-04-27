@@ -54,4 +54,6 @@ body {
 .ProductImage {
   width: 100%;
   max-width: 80px;
+
+  border: 2px solid teal;
 }
