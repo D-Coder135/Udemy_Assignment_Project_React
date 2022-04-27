@@ -21,7 +21,7 @@ function App() {
 
           <h3 className={style.SectionHeading}>Select Color</h3>
           <div>
-            <img />
+            <img className={style.ProductImage} src="https://imgur.com/PTgQlim.png"/>
           </div>
         </div>
       </div>
