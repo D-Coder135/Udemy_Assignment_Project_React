@@ -8,7 +8,7 @@ const ProductDetails = (props) => {
         const classArr = [style.ProductImage]
 
         if(pos == 0) {
-            classArr.push[style.SelectedProductImage];
+            classArr.push(style.SelectedProductImage);
         }
 
         return(
@@ -24,10 +24,6 @@ const ProductDetails = (props) => {
           <h3 className={style.SectionHeading}>Select Color</h3>
           <div>
               {colorOptions}
-            {/* <img className={[style.ProductImage, style.SelectedProductImage].join(' ')} src="https://imgur.com/iOeUBV7.png" alt='Black Colored Watch'/>
-            <img className={style.ProductImage} src="https://imgur.com/PTgQlim.png" alt='Red Colored Watch'/>
-            <img className={style.ProductImage} src="https://imgur.com/Mplj1YR.png" alt='Blue Colored Watch'/>
-            <img className={style.ProductImage} src="https://imgur.com/xSIK4M8.png" alt='Purple Colored Watch'/> */}
           </div>
 
           <h3 className={style.SectionHeading}>Features</h3>
