@@ -16,6 +16,7 @@ const ProductDetails = (props) => {
 
           <h3 className={style.SectionHeading}>Select Color</h3>
           <div>
+              {colorOptions}
             {/* <img className={[style.ProductImage, style.SelectedProductImage].join(' ')} src="https://imgur.com/iOeUBV7.png" alt='Black Colored Watch'/>
             <img className={style.ProductImage} src="https://imgur.com/PTgQlim.png" alt='Red Colored Watch'/>
             <img className={style.ProductImage} src="https://imgur.com/Mplj1YR.png" alt='Blue Colored Watch'/>
