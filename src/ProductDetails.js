@@ -8,11 +8,11 @@ const ProductDetails = (props) => {
         const classArr = [style.ProductImage]
 
         if(pos == 0) {
-
+            classArr.push[style.SelectedProductImage];
         }
 
         return(
-            <img key={pos} className={style.ProductImage} src={item.imageUrl} alt={item.styleName}/>
+            <img key={pos} className={classArr.join(' ')} src={item.imageUrl} alt={item.styleName}/>
         );
     })
 
