@@ -6,9 +6,7 @@ import Topbar from './Topbar';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
         <Topbar />
-      </header>
 
       <div className={style.MainContainer}>
         <div className={style.ProductPreview}>
