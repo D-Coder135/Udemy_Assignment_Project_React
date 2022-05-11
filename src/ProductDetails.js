@@ -37,9 +37,7 @@ const ProductDetails = (props) => {
             
             <button className={style.FeatureItem}>Heart Rate</button>
           </div>
-
-         
-
+          {featureList}
         </div>
     );
 }
