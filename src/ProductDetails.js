@@ -5,7 +5,7 @@ const ProductDetails = (props) => {
 
     const colorOptions = props.data.colorOptions.map((item, pos) => {
         return(
-            <img className={style.ProductImage} src={item.imageUrl} alt={item.styleName}/>
+            <img key={pos} className={style.ProductImage} src={item.imageUrl} alt={item.styleName}/>
         );
     })
 
