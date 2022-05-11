@@ -5,8 +5,10 @@ const ProductDetails = (props) => {
 
     const colorOptions = props.data.colorOptions.map((item, pos) => {
 
+        const classArr = [style.ProductImage]
+
         if(pos == 0) {
-            
+
         }
 
         return(
