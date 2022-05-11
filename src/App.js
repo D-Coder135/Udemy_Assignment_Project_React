@@ -23,7 +23,7 @@ class App extends Component  {
           </div>
   
           <div className={style.ProductData}>
-            <ProductDetails />
+            <ProductDetails data = {this.state.productData} />
           </div>
         </div>
       </div>
