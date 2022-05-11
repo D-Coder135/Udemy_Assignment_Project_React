@@ -8,7 +8,21 @@ import Topbar from './Topbar';
 class App extends Component  {
 
   render() {
-
+    return (
+      <div className="App">
+          <Topbar />
+  
+        <div className={style.MainContainer}>
+          <div className={style.ProductPreview}>
+            <ProductPreview />
+          </div>
+  
+          <div className={style.ProductData}>
+            <ProductDetails />
+          </div>
+        </div>
+      </div>
+    );
   }
 }
 
