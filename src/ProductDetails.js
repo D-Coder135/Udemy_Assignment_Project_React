@@ -16,6 +16,12 @@ const ProductDetails = (props) => {
         );
     })
 
+    const featureList = props.data.featureList.map((item, pos) => {
+        return (
+            <button className={[style.FeatureItem, style.SelectedFeatureItem].join(' ')}>{item}</button>
+        );
+    })
+
     return(
         <div className={style.ProductData}>
           <h1 className={style.ProductTitle}>{props.data.title}</h1>
@@ -28,7 +34,7 @@ const ProductDetails = (props) => {
 
           <h3 className={style.SectionHeading}>Features</h3>
           <div>
-            <button className={[style.FeatureItem, style.SelectedFeatureItem].join(' ')}>Time</button>
+            
             <button className={style.FeatureItem}>Heart Rate</button>
           </div>
 
