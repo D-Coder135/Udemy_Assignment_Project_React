@@ -17,8 +17,15 @@ const ProductDetails = (props) => {
     })
 
     const featureList = props.data.featureList.map((item, pos) => {
+
+        const classArr = [style.FeatureItem];
+
+        if(pos == 0) {
+            classArr.push(style.SelectedFeatureItem);
+        }
+
         return (
-            <button className={[style.FeatureItem, style.SelectedFeatureItem].join(' ')}>{item}</button>
+            <button key={pos} className={classArr.join(' ')}>{item}</button>
         );
     })
 
