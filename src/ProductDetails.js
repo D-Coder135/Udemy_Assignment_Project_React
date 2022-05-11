@@ -38,7 +38,7 @@ const ProductDetails = (props) => {
             <button className={style.FeatureItem}>Heart Rate</button>
           </div>
 
-          <button className={style.PrimaryButton}>Buy Now</button>
+         
 
         </div>
     );
