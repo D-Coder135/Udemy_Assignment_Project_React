@@ -4,6 +4,11 @@ import style from './ProductDetails.module.css';
 const ProductDetails = (props) => {
 
     const colorOptions = props.data.colorOptions.map((item, pos) => {
+
+        if(pos == 0) {
+            
+        }
+
         return(
             <img key={pos} className={style.ProductImage} src={item.imageUrl} alt={item.styleName}/>
         );
