@@ -21,7 +21,7 @@ class App extends Component  {
   
         <div className={style.MainContainer}>
           <div className={style.ProductPreview}>
-            <ProductPreview currentPreviewImage = {this.state.currentPreviewImage}/>
+            <ProductPreview currentPreviewImage = {this.state.currentPreviewImage} showHeartBeatSection = {this.state.showHeartBeatSection}/>
           </div>
   
           <div className={style.ProductData}>
