@@ -4,7 +4,7 @@ import style from './App.module.css';
 import ProductPreview from './ProductPreview';
 import ProductDetails from './ProductDetails';
 import Topbar from './Topbar';
-import ProductData from './ProductData';
+import ProductData from './utils/ProductData';
 
 class App extends Component  {
 
