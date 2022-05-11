@@ -6,21 +6,10 @@ import ProductDetails from './ProductDetails';
 import Topbar from './Topbar';
 
 class App extends Component  {
-  return (
-    <div className="App">
-        <Topbar />
 
-      <div className={style.MainContainer}>
-        <div className={style.ProductPreview}>
-          <ProductPreview />
-        </div>
+  render() {
 
-        <div className={style.ProductData}>
-          <ProductDetails />
-        </div>
-      </div>
-    </div>
-  );
+  }
 }
 
 export default App;
