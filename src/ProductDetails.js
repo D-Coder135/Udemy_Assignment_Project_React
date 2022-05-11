@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './ProductDetails.module.css';
+import ProductData from './ProductData';
 
 const ProductDetails = (props) => {
     return(
