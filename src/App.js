@@ -1,6 +1,7 @@
 import ProductData from './ProductData';
 import style from './App.module.css';
 import ProductPreview from './ProductPreview';
+import ProductDetails from './ProductDetails';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         </div>
 
         <div className={style.ProductData}>
-          
+          <ProductDetails />
         </div>
       </div>
     </div>
