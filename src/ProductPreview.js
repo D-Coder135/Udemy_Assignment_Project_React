@@ -8,13 +8,19 @@ const ProductPreview = (props) => {
         <div className={style.ProductPreview}>
             <img src={props.currentPreviewImage} alt='Product Preview'/>
 
-            <div className={style.TimeSection}>
-            <p>{`${new Date().getHours()}:${currentMinutes}`}</p>
-            </div>
-            {/* <div className={style.HeartBeatSection}>
-            <i class="fas fa-heartbeat"></i>
-            <p>78</p>
-            </div> */}
+            {
+                props.showHeartBeatSection ? 
+                <div className={style.HeartBeatSection}>
+                <i class="fas fa-heartbeat"></i>
+                <p>78</p>
+                </div> 
+
+                :
+
+                <div className={style.TimeSection}>
+                <p>{`${new Date().getHours()}:${currentMinutes}`}</p>
+                </div>
+            }
         </div>
     );
 }
