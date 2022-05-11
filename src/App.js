@@ -5,7 +5,7 @@ import ProductPreview from './ProductPreview';
 import ProductDetails from './ProductDetails';
 import Topbar from './Topbar';
 
-function App() {
+class App extends Component  {
   return (
     <div className="App">
         <Topbar />
