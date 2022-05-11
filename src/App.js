@@ -11,7 +11,7 @@ class App extends Component  {
   state = {
     productData: ProductData,
     currentPreviewImage: 'https://imgur.com/Mplj1YR.png',
-    showHeartBeatSection: 'false',
+    showHeartBeatSection: false,
   }
 
   render() {
