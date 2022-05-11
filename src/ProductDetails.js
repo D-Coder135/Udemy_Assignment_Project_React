@@ -34,10 +34,11 @@ const ProductDetails = (props) => {
 
           <h3 className={style.SectionHeading}>Features</h3>
           <div>
-            
-            <button className={style.FeatureItem}>Heart Rate</button>
+              {featureList}
           </div>
-          {featureList}
+
+          <button className={style.PrimaryButton}>Buy Now</button>
+
         </div>
     );
 }
