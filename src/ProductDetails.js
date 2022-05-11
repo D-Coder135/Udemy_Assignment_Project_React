@@ -1,12 +1,11 @@
 import React from 'react';
 import style from './ProductDetails.module.css';
-import ProductData from './ProductData';
 
 const ProductDetails = (props) => {
     return(
         <div className={style.ProductData}>
-          <h1 className={style.ProductTitle}>{ProductData.title}</h1>
-          <p className={style.ProductDescription}>{ProductData.description}</p>
+          <h1 className={style.ProductTitle}>{props.data.title}</h1>
+          <p className={style.ProductDescription}>{props.data.description}</p>
 
           <h3 className={style.SectionHeading}>Select Color</h3>
           <div>
