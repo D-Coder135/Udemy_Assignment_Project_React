@@ -24,6 +24,11 @@ body {
   align-items: center;
 }
 
+.ProductPreview {
+  width: 50%;
+  position: relative;
+}
+
 .ProductData {
   width: 50%;
 }

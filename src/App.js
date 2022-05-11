@@ -15,7 +15,6 @@ function App() {
       <div className={style.MainContainer}>
         <div className={style.ProductPreview}>
           <ProductPreview />
-          </div>
         </div>
 
         <div className={style.ProductData}>
