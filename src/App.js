@@ -20,7 +20,7 @@ class App extends Component  {
   
         <div className={style.MainContainer}>
           <div className={style.ProductPreview}>
-            <ProductPreview />
+            <ProductPreview currentPreviewImage = {this.state.currentPreviewImage}/>
           </div>
   
           <div className={style.ProductData}>
