@@ -4,7 +4,7 @@ import style from './ProductPreview.module.css';
 
 const ProductPreview = (props) => {
     return(
-        <div>
+        <div className={style.ProductPreview}>
             <img src='https://imgur.com/iOeUBV7.png' alt='Product Preview'/>
 
             {/* <div className={style.TimeSection}>
