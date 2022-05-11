@@ -9,7 +9,8 @@ import ProductData from './ProductData';
 class App extends Component  {
 
   state = {
-    productData: ProductData
+    productData: ProductData,
+    currentPreviewImage: 'https://imgur.com/Mplj1YR.png'
   }
 
   render() {
