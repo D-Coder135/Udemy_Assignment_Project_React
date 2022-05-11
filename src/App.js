@@ -1,5 +1,6 @@
 import ProductData from './ProductData';
 import style from './App.module.css';
+import ProductPreview from './ProductPreview';
 
 function App() {
   const currentMinutes = new Date().getMinutes() > 9 ? new Date().getMinutes() : '0' + new Date().getMinutes();
@@ -13,14 +14,7 @@ function App() {
 
       <div className={style.MainContainer}>
         <div className={style.ProductPreview}>
-          <img src='https://imgur.com/iOeUBV7.png' alt='Product Preview'/>
-
-          {/* <div className={style.TimeSection}>
-            <p>{`${new Date().getHours()}:${currentMinutes}`}</p>
-          </div> */}
-          <div className={style.HeartBeatSection}>
-            <i class="fas fa-heartbeat"></i>
-            <p>78</p>
+          <ProductPreview />
           </div>
         </div>
 
