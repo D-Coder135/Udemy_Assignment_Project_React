@@ -25,11 +25,11 @@ class App extends Component  {
   
         <div className={style.MainContainer}>
           <div className={style.ProductPreview}>
-            <ProductPreview currentPreviewImage = {this.state.productData.colorOptions[this.state.currentPreviewImagePos].imageUrl} showHeartBeatSection = {this.state.showHeartBeatSection} currentPreviewImagePos = {this.state.currentPreviewImagePos}/>
+            <ProductPreview currentPreviewImage = {this.state.productData.colorOptions[this.state.currentPreviewImagePos].imageUrl} showHeartBeatSection = {this.state.showHeartBeatSection} />
           </div>
   
           <div className={style.ProductData}>
-            <ProductDetails data = {this.state.productData} onColorOptionClick = {this.onColorOptionClick}/>
+            <ProductDetails data = {this.state.productData} onColorOptionClick = {this.onColorOptionClick} currentPreviewImagePos = {this.state.currentPreviewImagePos}/>
           </div>
         </div>
       </div>
