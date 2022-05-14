@@ -20,6 +20,10 @@ class App extends Component  {
 
   onFeatureItemClick = (pos) => {
     let updatedState = false;
+    if (pos == 1) {
+      updatedState = true;
+    }
+    
   }
 
   render() {
