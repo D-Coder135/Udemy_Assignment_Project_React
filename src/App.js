@@ -16,6 +16,7 @@ class App extends Component  {
 
   onColorOptionClick = (pos) => {
     const updatePreviewImage = this.state.productData.colorOptions[pos].imageUrl;
+    this.setState({currentPreviewImage: updatePreviewImage});
   }
 
   render() {
