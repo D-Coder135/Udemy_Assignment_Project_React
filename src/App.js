@@ -11,7 +11,6 @@ class App extends Component  {
   state = {
     productData: ProductData,
     currentPreviewImagePos: 0,
-    currentPreviewImage: 'https://imgur.com/Mplj1YR.png',
     showHeartBeatSection: false,
   }
 
