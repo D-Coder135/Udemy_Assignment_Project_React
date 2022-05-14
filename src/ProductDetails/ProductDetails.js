@@ -25,7 +25,7 @@ const ProductDetails = (props) => {
         }
 
         return (
-            <button key={pos} className={classArr.join(' ')}>{item}</button>
+            <button onClick={() => props.onFeatureItemClick(pos)} key={pos} className={classArr.join(' ')}>{item}</button>
         );
     })
 
