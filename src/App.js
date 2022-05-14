@@ -23,7 +23,7 @@ class App extends Component  {
     if (pos == 1) {
       updatedState = true;
     }
-    
+    this.setState({showHeartBeatSection: updatedState});
   }
 
   render() {
