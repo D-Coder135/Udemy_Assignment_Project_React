@@ -20,7 +20,7 @@ const ProductDetails = (props) => {
 
         const classArr = [style.FeatureItem];
 
-        if(pos == 0) {
+        if(props.showHeartBeatSection) {
             classArr.push(style.SelectedFeatureItem);
         }
 
