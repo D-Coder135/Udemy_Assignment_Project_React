@@ -12,7 +12,7 @@ const ProductDetails = (props) => {
         }
 
         return(
-            <img key={pos} className={classArr.join(' ')} src={item.imageUrl} alt={item.styleName}/>
+            <img key={pos} className={classArr.join(' ')} src={item.imageUrl} alt={item.styleName} onClick = {() => props.onColorOptionClick(pos)}/>
         );
     })
 

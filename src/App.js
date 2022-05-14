@@ -30,7 +30,7 @@ class App extends Component  {
           </div>
   
           <div className={style.ProductData}>
-            <ProductDetails data = {this.state.productData} onColorOptionClick={this.onColorOptionClick}/>
+            <ProductDetails data = {this.state.productData} onColorOptionClick = {this.onColorOptionClick}/>
           </div>
         </div>
       </div>
