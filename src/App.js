@@ -19,7 +19,7 @@ class App extends Component  {
   }
 
   onFeatureItemClick = (pos) => {
-
+    let updatedState = false;
   }
 
   render() {
