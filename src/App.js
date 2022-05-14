@@ -14,7 +14,7 @@ class App extends Component  {
     showHeartBeatSection: false,
   }
 
-  onColorOptionClick = () => {
+  onColorOptionClick = (pos) => {
     const updatePreviewImage = this.state.productData.colorOptions[pos].imageUrl;
   }
 
