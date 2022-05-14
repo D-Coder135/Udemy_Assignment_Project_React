@@ -1,4 +1,4 @@
-# Amazon Web-Page Clone(Udemy Assignment Project)💡💡
+# Amazon Web-Page Clone(Udemy Assignment Project)💡
 
 ## Goal
 
