@@ -7,7 +7,7 @@ const ProductDetails = (props) => {
 
         const classArr = [style.ProductImage]
 
-        if(pos == 0) {
+        if(pos == props.currentPreviewImagePos) {
             classArr.push(style.SelectedProductImage);
         }
 
