@@ -14,6 +14,10 @@ class App extends Component  {
     showHeartBeatSection: false,
   }
 
+  onColorOptionClick = () => {
+    
+  }
+
   render() {
     return (
       <div className="App">
