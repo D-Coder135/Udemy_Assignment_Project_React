@@ -18,6 +18,10 @@ class App extends Component  {
     this.setState({currentPreviewImagePos: pos});
   }
 
+  onFeatureItemClick = (pos) => {
+
+  }
+
   render() {
     return (
       <div className="App">
